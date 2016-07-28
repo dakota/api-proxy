@@ -1,0 +1,19 @@
+{
+    "name": "uafrica/api-proxy",
+    "require": {
+        "bunny/bunny": "^0.2.3",
+        "react/http-client": "^0.4.10",
+        "league/climate": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Walther Lalk",
+            "email": "waltherlalk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Proxy\\": "src/"
+        }
+    }
+}
